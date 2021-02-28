@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.home, .reports, .products {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+@media (max-width: 775px) {
+    .home, .reports, .products {
+        font-size: 1.5rem;
+        background-color: #2500aa;
+        color: #fff;
+    }
+}
