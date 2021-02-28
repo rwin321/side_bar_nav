@@ -2,7 +2,7 @@
   "name": "react_app_1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rwin321.github.io/side_bar_nav",
+  "homepage": "https://rwin321.github.io/side_bar_nav",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
