@@ -5,6 +5,7 @@ import * as AiIcons from 'react-icons/ai'
 import {sideBarData} from './data'
 import './NavBar.css'
 import {IconContext} from "react-icons";
+import brandLogo from '../utils/imgs/brand-logo.png'
 
 const NavBar = () => {
 
@@ -19,6 +20,13 @@ const NavBar = () => {
 					<Link to = '#' className = 'menu-bars'>
 						<FaBars onClick = {showSideBar} />
 					</Link>
+					<div className='brand-logo__container'>
+						<Link to='/'>
+							<img src = {brandLogo}
+							     alt = 'here ,ust be the brand logo ...'
+							     className='brand-logo' />
+						</Link>
+					</div>
 				</div>
 				<nav className = {sidebar ? 'nav-menu active' : 'nav-menu'}>
 					<ul className = 'nav-menu-items' onClick = {showSideBar}>

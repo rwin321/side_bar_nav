@@ -24,7 +24,7 @@ const App = () => {
         <>
             {
                 !loading ?
-                    <BrowserRouter>
+                    <BrowserRouter basename={process.env.PUBLIC_URL}>
                         <NavBar />
                         <Switch>
                             <Route exact path='/' component={Home} />

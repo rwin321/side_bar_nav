@@ -2,8 +2,13 @@
     background-color: #3b4544;
     height: 10vh;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
+}
+
+.brand-logo {
+    width: 7em;
+    padding: .5em;
 }
 
 .menu-bars {
